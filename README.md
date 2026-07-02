@@ -1,16 +1,37 @@
-# React + Vite
+# 🛡️ SafeHer — Women Safety Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A web platform providing real-time emergency alerts, nearby safety resources, and AI-assisted threat analysis to help users stay safe in risky situations.
 
-Currently, two official plugins are available:
+## 🔗 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+[https://women-safety-ai-powered-platform.vercel.app/](https://women-safety-ai-powered-platform.vercel.app/)
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+| Feature | Description |
+|---|---|
+| 🚨 **SOS Alert** | Captures live GPS location and sends a WhatsApp alert (with a Google Maps link) to saved emergency contacts, after a short countdown to prevent accidental triggers |
+| 📍 **Nearby Services** | Interactive Leaflet/OpenStreetMap view of nearby police stations, hospitals, and safe zones based on the user's current location |
+| 📞 **Emergency Contacts** | Add, edit, and manage trusted contacts (name, phone, relationship) |
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**Frontend**
+- React 18 + Vite
+- React Router — client-side routing
+- React Leaflet / Leaflet — interactive maps
+- API Integration
+
+**Backend**
+- Flask + Flask-CORS
+- SQLite — lightweight relational storage
+- Gunicorn — production WSGI server
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+## 👩‍💻 Author
+
+**Akshara**
+GitHub: [@AlleAkshara](https://github.com/AlleAkshara)
