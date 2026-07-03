@@ -13,6 +13,7 @@ A web platform providing real-time emergency alerts, nearby safety resources, an
 | 🚨 **SOS Alert** | Captures live GPS location and sends a WhatsApp alert (with a Google Maps link) to saved emergency contacts, after a short countdown to prevent accidental triggers |
 | 📍 **Nearby Services** | Interactive Leaflet/OpenStreetMap view of nearby police stations, hospitals, and safe zones based on the user's current location |
 | 📞 **Emergency Contacts** | Add, edit, and manage trusted contacts (name, phone, relationship) |
+| 🧠 **AI Threat Analysis** |  Analyzes user input/context(Threat) and classifies risk into Low, Medium, or Normal threat levels, providing safety Suggesstions in real time.
 
 ## 🛠️ Tech Stack
 
